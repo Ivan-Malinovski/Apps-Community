@@ -39,6 +39,7 @@
           - '/opt/appdata/nextcloud/data:/data'
           - '/opt/appdata/{{pgrole}}/conf:/config'
           - '{{path.stdout}}:{{path.stdout}}'
+          - '/home/mcserver:/mc'
           - '/mnt:/mnt'
 
     - name: 'Setting PG ENV'
