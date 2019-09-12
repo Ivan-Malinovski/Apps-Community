@@ -57,9 +57,9 @@
         pull: yes
         published_ports:
           - '{{ports.stdout}}{{extport}}:{{intport}}'
-          - '25565:25565/tcp'
-          - '25566:25566/tcp'
-          - '25567:25567/tcp'
+          - '25575:25575/tcp'
+          - '25576:25576/tcp'
+          - '25577:25577/tcp'
         volumes: '{{pg_volumes}}'
         env: '{{pg_env}}'
         restart_policy: unless-stopped
