@@ -17,7 +17,7 @@
         pgrole: 'bookstack'
         intport: '6009'
         extport: '6009'
-        image: 'linuxserver/bookstack:{{ app_docker_image }}'
+        image: 'linuxserver/bookstack'
 
     # CORE (MANDATORY) ############################################################
     - name: 'Including cron job'
